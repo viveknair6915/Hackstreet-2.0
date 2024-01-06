@@ -70,19 +70,23 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'telegram',
+    url: '/telegram.webp',
+    href: 'https://t.me/joinchat/JkKFGhgrkuLYiwiSToT_Jg',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    href:'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFx5DDyMtDHlwAAAYzdvY-IdZOXMNqamWkeKzZQdyYytS5v4rnk6NUb7efZRQdNWS1-zOQS7SQ0ifW0sKyRTagpY_ksTcJ9QwPZDXBAz-WuBhgRWZ-UZbdl_DXBh6kcbYZjf40=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fieee-student-branch-jiit'
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    href:'https://www.instagram.com/ieeesbjiit/',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    href:'https://www.facebook.com/ieeesbjiit/',
   },
 ];

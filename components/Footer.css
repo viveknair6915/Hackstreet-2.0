@@ -1,0 +1,13 @@
+.social-btn img:hover{
+    height:6vmin;
+    width:6vmin;
+}
+#gmail{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size:3vmin;
+    color: white;
+}
+#gmail:hover{
+    font-size:3.5vmin;
+}
