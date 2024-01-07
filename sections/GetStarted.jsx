@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-import { StartSteps, TitleText, TypingText } from '../components';
-import { startingFeatures } from '../constants';
+import styles from "../styles";
+import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
+import { StartSteps, TitleText, TypingText } from "../components";
+import { startingFeatures } from "../constants";
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -21,8 +21,8 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
-          alt="get-started"
+          src="/image10.jpg"
+          alt="image10"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
@@ -34,11 +34,7 @@ const GetStarted = () => (
         <TitleText title={<>Get started with just a few clicks</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
-            <StartSteps
-              key={feature}
-              number={index + 1}
-              text={feature}
-            />
+            <StartSteps key={feature} number={index + 1} text={feature} />
           ))}
         </div>
       </motion.div>
