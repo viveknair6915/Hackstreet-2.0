@@ -19,7 +19,7 @@ const World = () => (
       <TitleText
         title={(
           <>
-            Track friends around you and invite them to play together in the same world
+            Make interesting projects with your friends and win exciting prizes
           </>
         )}
         textStyles="text-center"
