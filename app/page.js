@@ -1,8 +1,9 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import './page.css';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-primary-black overflow-hidden bg_pic">
     <Navbar />
     <Hero />
     <div className="relative">
