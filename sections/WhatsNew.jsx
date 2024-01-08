@@ -36,9 +36,9 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/hack_reverse.png"
+          src="/revimage20.png"
           alt="whats-new"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[97%] h-[97%] object-contain"
         />
       </motion.div>
     </motion.div>
