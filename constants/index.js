@@ -5,14 +5,14 @@ export const exploreWorlds = [
     title: 'The Hogwarts',
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: 'Murder-2',
+    imgUrl: '/murder2.png',
+    title: 'The Night stalker',
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: 'murder-3',
+    imgUrl: '/murder3.png',
+    title: 'Myterious Witch',
   },
   {
     id: 'world-4',
