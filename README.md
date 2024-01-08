@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Metaverse Madness
+# The Incognito Realm
 A website built using Next.js, Framer-Motion, and TailwindCSS for a dynamic and immersive user experience, hosted on Vercel.
 
 ## Technologies Used
