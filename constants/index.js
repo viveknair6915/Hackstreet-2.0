@@ -15,9 +15,9 @@ export const exploreWorlds = [
     title: 'Myterious Witch',
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    id: 'murder-4',
+    imgUrl: '/murder4.png',
+    title: 'The Death End',
   },
   {
     id: 'Murder-5',
