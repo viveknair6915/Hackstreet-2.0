@@ -20,9 +20,9 @@ export const exploreWorlds = [
     title: 'Paradise Island',
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    id: 'Murder-5',
+    imgUrl: '/murder5.png',
+    title: 'The unknown',
   },
 ];
 
