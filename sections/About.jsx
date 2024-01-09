@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">HackStreet</span> is 18 hour long running hackathon will be held on February 4th and 5th , We call for <span className="font-extrabold text-white">hackers, artists, coders, designers, tech evangelists, creatives, and developers</span> from all disciplines to take a part to <span className="font-extrabold text-white">win awesome prizes </span>and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have <span className="font-extrabold text-white">unique opportunities to learn</span> from each other trying hands in new technologies. We are determined to have an all-inclusive and diverse group of students attending.
+        <span className="font-extrabold text-white">HackStreet</span> is 24 hour long running hackathon will be held on <span className="font-extrabold text-white">February 3rd and 4th</span> , We call for <span className="font-extrabold text-white">hackers, artists, coders, designers, tech evangelists, creatives, and developers</span> from all disciplines to take a part to <span className="font-extrabold text-white">win awesome prizes </span>and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have <span className="font-extrabold text-white">unique opportunities to learn</span> from each other trying hands in new technologies. We are determined to have an all-inclusive and diverse group of students attending.
       </motion.p>
 
       <motion.img
