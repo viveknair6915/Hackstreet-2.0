@@ -16,7 +16,7 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+        className="flex-[0.5] lg:max-w-[1500px] flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
       >
         <div className="feedback-gradient" />
         <div>
@@ -31,17 +31,10 @@ const Feedback = () => (
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
           “Special Thanks to”
         </p>
-      </motion.div>
+      
 
-      <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="relative flex-1 flex justify-center items-center"
-      >
-        <img
-          src="/planet-09.png"
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-        />
+    
+        
 
         <motion.div
           variants={zoomIn(0.4, 1)}
