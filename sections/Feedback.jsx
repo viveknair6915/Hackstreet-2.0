@@ -16,7 +16,7 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:min-w-[1290px] flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+        className="flex-[1] lg:max-w-[1290px] flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
       >
         <div className="feedback-gradient" />
         <div>
@@ -38,7 +38,7 @@ const Feedback = () => (
 
         <motion.div
           variants={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[7%] top-[3%]"
+          className="lg:block absolute -left-[7%] top-[10%]"
         >
           <img
             src="/logo_hack.png"
