@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/image36.jpeg',
     title: 'The Hogwarts',
   },
   {
@@ -49,30 +49,30 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: "/planet-06.png",
+    imgUrl: "/image32.jpeg",
     title: " Who can attend?",
     subtitle: "Hackstreet is open to students of all colleges.",
   },
   {
-    imgUrl: "/planet-07.png",
+    imgUrl: "/image30.jpeg",
     title: " I am a first time hacker, what should I do?",
     subtitle:
       "  No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.",
   },
   {
-    imgUrl: "/planet-08.png",
+    imgUrl: "/image36.jpeg",
     title: " How team formation works?",
     subtitle:
       "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!",
   },
   {
-    imgUrl: "/planet-08.png",
+    imgUrl: "/image34.jpeg",
     title: "   How to register myself in the hackathon??",
     subtitle:
       "All you need is to fill our form above and join Discord, we will guide you through everything there",
   },
   {
-    imgUrl: "/planet-08.png",
+    imgUrl: "/image37.jpeg",
     title: "   I have more questions?",
     subtitle:
       "    Reach us directly on our Discord Server we would be happy to help you.",
