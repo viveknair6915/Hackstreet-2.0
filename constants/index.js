@@ -1,8 +1,8 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
-    imgUrl: '/image36.jpeg',
-    title: 'The Hogwarts',
+    id: 'Murder-1',
+    imgUrl: '/murder1.png',
+    title: 'Way to hacking',
   },
   {
     id: 'Murder-2',
