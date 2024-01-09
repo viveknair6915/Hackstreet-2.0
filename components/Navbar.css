@@ -1,0 +1,10 @@
+.NavBar-desc{
+    display: flex;
+    width:500px;
+    justify-content: space-evenly;
+    color:aliceblue;
+    margin:1vmin;
+}
+h2{
+    width: 60%;
+}
