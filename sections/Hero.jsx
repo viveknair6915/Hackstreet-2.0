@@ -42,7 +42,7 @@ const Hero = () => (
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] lg:-mt-[50px] pr-[40px] relative z-[10]">
             <img
-              src="/stamp.png"
+              src="/logo_hack.png"
               alt="stamp"
               className="sm:w-[155px] lg:w-[100px] w-[100px] sm:h-[155px] lg:h-[100px] h-[100px] object-contain"
             />
