@@ -35,15 +35,29 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'WINNER',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Prize will be given to a project that outstands all other submissions.'
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: '1st RUNNER UP',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        '1st Runner-up prize will be given to the second best project of the hackathon.',
+  },
+];
+export const newFeatures2 = [
+  {
+    imgUrl: '/vrpano.svg',
+    title: '2nd RUNNER UP',
+    subtitle:
+        '2nd Runner-up project of the hackathon will win some awesome prizes.'
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'ALL GIRLS TEAM',
+    subtitle:
+        'Will be awarded to the project of hackathon which was made by an all girls team.',
   },
 ];
 
