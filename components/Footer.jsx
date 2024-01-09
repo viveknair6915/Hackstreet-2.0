@@ -32,7 +32,7 @@ const Footer = () => (
           <p className="font-bold text-[18px] text-white opacity-50">Contact Us:  <a href="mailto:ieeesbjiit@gmail.com" id="gmail">ieeesbjiit@gmail.com</a></p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <button class="social-btn">
+              <button className="social-btn">
               <a href={social.href} target='_main'> 
               <img
                 key={social.name}
