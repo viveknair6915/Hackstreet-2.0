@@ -6,6 +6,7 @@ import Link from 'next/link';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 import './Navbar.css';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   return (
@@ -17,14 +18,15 @@ function Navbar() {
     >
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-        <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
+        <h2 className="font-extrabold text-[24px] leading-[30px] text-white w-[60%]">
           HACKSTREET 2.0
         </h2>
         <div className="NavBar-desc">
-          <Link href="/sections">HOME</Link>
-          <Link href="/sections/about">ABOUT</Link>
-          <Link href="/sections">PRIZE</Link>
-          <Link href="/sections">SPONSERS</Link>
+          <Link href="/">HOME</Link>
+          <HashLink to="#about">ABOUT</HashLink>
+          <HashLink to="#prize">PRIZE</HashLink>
+          <HashLink to="#sponser">SPONSERS</HashLink>
+          <HashLink to="#faq">FAQs</HashLink>
         </div>
         <button
           type="button"

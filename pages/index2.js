@@ -1,4 +1,7 @@
+'use client';
+
 import { Footer, Navbar } from '../components';
+import { BrowserRouter } from 'react-router-dom';
 import {
   About,
   Explore,
@@ -12,6 +15,7 @@ import {
 
 function Page() {
   return (
+    <BrowserRouter>
     <div className="bg-primary-black overflow-hidden">
       <Navbar />
       <Hero />
@@ -33,6 +37,7 @@ function Page() {
       </div>
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 

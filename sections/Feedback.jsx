@@ -15,6 +15,7 @@ function Feedback() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
       >
+        </motion.div>
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
           className="flex-[0.5] lg:max-w-1500 flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
@@ -32,7 +33,6 @@ function Feedback() {
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
             “Special Thanks to”
           </p>
-
           <motion.div
             variants={zoomIn(0.4, 1)}
             className="lg:block hidden absolute -left-[-1%] top-[1%]"
@@ -44,7 +44,6 @@ function Feedback() {
             />
           </motion.div>
         </motion.div>
-      </motion.div>
     </section>
   );
 }

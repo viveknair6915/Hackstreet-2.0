@@ -9,7 +9,7 @@ import { insights } from '../constants';
 
 function Insights() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="faq">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

@@ -1,5 +1,7 @@
+'use client';
 import React from 'react';
 import { Footer, Navbar } from '../components';
+import { BrowserRouter } from 'react-router-dom';
 import {
   About,
   Explore,
@@ -14,6 +16,7 @@ import './page.css';
 
 function Page() {
   return (
+    <BrowserRouter>
     <div className="bg-primary-black overflow-hidden bg_pic">
       <Navbar />
       <Hero />
@@ -35,6 +38,7 @@ function Page() {
       </div>
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 
