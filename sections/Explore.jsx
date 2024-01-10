@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { staggerContainer } from "../utils/motion";
-import { ExploreCard, TitleText, TypingText } from "../components";
-import { exploreWorlds } from "../constants";
+import styles from '../styles';
+import { staggerContainer } from '../utils/motion';
+import { ExploreCard, TitleText, TypingText } from '../components';
+import { exploreWorlds } from '../constants';
 
 function Explore() {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState('world-2');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -22,12 +22,12 @@ function Explore() {
       >
         <TypingText title="| The Case" textStyles="text-center" />
         <TitleText
-          title={
+          title={(
             <>
               Choose your own fate ‼<br className="md:block hidden" />
               Chase down the Murderer🗡
             </>
-          }
+          )}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
