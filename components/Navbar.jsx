@@ -3,10 +3,10 @@
 import { motion } from 'framer-motion';
 
 import Link from 'next/link';
+import { HashLink } from 'react-router-hash-link';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 import './Navbar.css';
-import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   return (
