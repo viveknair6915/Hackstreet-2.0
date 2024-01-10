@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import Link from 'next/link'
-import styles from '../styles';
-import { navVariants } from '../utils/motion';
-import './Navbar.css'
+import Link from "next/link";
+import styles from "../styles";
+import { navVariants } from "../utils/motion";
+import "./Navbar.css";
 
 const Navbar = () => (
   <motion.nav
@@ -25,9 +25,16 @@ const Navbar = () => (
         <Link href="/sections">PRIZE</Link>
         <Link href="/sections">SPONSERS</Link>
       </div>
-      <button type="button" className="flex my-0 items-center h-fit py-3 px-5 bg-[#1E90FF] rounded-[32px] gap-[12px]">
-        <span className="font-normal text-[16px] text-white"><a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">DEVFOLIO</a></span>
-        </button>
+      <button
+        type="button"
+        className="flex my-0 items-center h-fit py-3 px-5 bg-[#1E90FF] rounded-[32px] gap-[12px]"
+      >
+        <span className="font-normal text-[16px] text-white">
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">
+            DEVFOLIO
+          </a>
+        </span>
+      </button>
     </div>
   </motion.nav>
 );
