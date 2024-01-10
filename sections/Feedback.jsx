@@ -35,12 +35,12 @@ function Feedback() {
 
           <motion.div
             variants={zoomIn(0.4, 1)}
-            className="lg:block hidden absolute -left-[10%] top-[3%]"
+            className="lg:block hidden absolute -left-[-1%] top-[1%]"
           >
             <img
               src="/logo_hack.png"
               alt="stamp"
-              className="w-[155px] h-[155px] object-contain"
+              className="w-[125px] h-[125px] object-contain"
             />
           </motion.div>
         </motion.div>
