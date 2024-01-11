@@ -16,25 +16,14 @@ function World() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| People on the World" textStyles="text-center" />
-        <TitleText
-          title={(
-            <>
-              Make interesting projects with your friends and win exciting prizes
-            </>
-        )}
-          textStyles="text-center"
-        />
+        
+      
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.1, 1)}
           className="relative mt-[68px] flex w-full h-[1000px]"
         >
-          <img
-            src="/image5.jpg"
-            alt="image5"
-            className="w-full h-full object-cover"
-          />
+          
         </motion.div>
       </motion.div>
     </section>

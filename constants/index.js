@@ -26,11 +26,7 @@ export const exploreWorlds = [
   },
 ];
 
-export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
-];
+
 
 export const newFeatures = [
   {
@@ -86,7 +82,7 @@ export const insights = [
       'All you need is to fill our form above and join Discord, we will guide you through everything there',
   },
   {
-    imgUrl: '/image37.jpeg',
+    imgUrl: '/image31.jpeg',
     title: '   I have more questions?',
     subtitle:
       '    Reach us directly on our Discord Server we would be happy to help you.',
