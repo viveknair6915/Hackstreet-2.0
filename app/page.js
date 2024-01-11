@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import { Footer, Navbar } from "../components";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Footer, Navbar } from '../components';
 
 import {
   About,
@@ -13,8 +13,8 @@ import {
   Insights,
   WhatsNew,
   World,
-} from "../sections";
-import "./page.css";
+} from '../sections';
+import './page.css';
 
 function Page() {
   return (

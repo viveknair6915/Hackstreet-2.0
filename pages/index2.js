@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { BrowserRouter } from "react-router-dom";
-import { Footer, Navbar } from "../components";
+import { BrowserRouter } from 'react-router-dom';
+import { Footer, Navbar } from '../components';
 
 import {
   About,
@@ -12,7 +12,7 @@ import {
   Insights,
   WhatsNew,
   World,
-} from "../sections";
+} from '../sections';
 
 function Page() {
   return (
@@ -22,23 +22,18 @@ function Page() {
         <Hero />
         <div className="relative">
           <About />
-          <div className="gradient-03">
-
-          </div>
+          <div className="gradient-03" />
           <Explore />
         </div>
         <div className="relative">
           <GetStarted />
-          <div className="gradient-04"> 
-          </div>
+          <div className="gradient-04" />
           <WhatsNew />
         </div>
         <World />
         <div className="relative">
           <Insights />
-          <div className="gradient-04">
-
-          </div>
+          <div className="gradient-04" />
           <Feedback />
         </div>
         <Footer />
