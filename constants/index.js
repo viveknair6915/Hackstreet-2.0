@@ -82,7 +82,7 @@ export const insights = [
       'All you need is to fill our form above and join Discord, we will guide you through everything there',
   },
   {
-    imgUrl: '/image37.jpeg',
+    imgUrl: '/image31.jpeg',
     title: '   I have more questions?',
     subtitle:
       '    Reach us directly on our Discord Server we would be happy to help you.',

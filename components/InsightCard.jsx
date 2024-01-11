@@ -12,7 +12,7 @@ function InsightCard({ imgUrl, title, subtitle, index }) {
       <img
         src={imgUrl}
         alt="image36.jpeg"
-        className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
+        className="md:w-[250px] w-full h-[250px] rounded-[32px] object-cover"
       />
       <div className="w-full flex justify-between items-center">
         <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
