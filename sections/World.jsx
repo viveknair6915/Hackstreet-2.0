@@ -19,12 +19,7 @@ function World() {
         
       
 
-        <motion.div
-          variants={fadeIn('up', 'tween', 0.1, 1)}
-          className="relative mt-[68px] flex w-full h-[1000px]"
-        >
-          
-        </motion.div>
+    
       </motion.div>
     </section>
   );
