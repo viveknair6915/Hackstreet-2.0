@@ -1,4 +1,8 @@
-import { Footer, Navbar } from '../components';
+"use client";
+
+import { BrowserRouter } from "react-router-dom";
+import { Footer, Navbar } from "../components";
+
 import {
   About,
   Explore,
@@ -8,31 +12,38 @@ import {
   Insights,
   WhatsNew,
   World,
-} from '../sections';
+} from "../sections";
 
 function Page() {
   return (
-    <div className="bg-primary-black overflow-hidden">
-      <Navbar />
-      <Hero />
-      <div className="relative">
-        <About />
-        <div className="gradient-03" />
-        <Explore />
+    <BrowserRouter>
+      <div className="bg-primary-black overflow-hidden">
+        <Navbar />
+        <Hero />
+        <div className="relative">
+          <About />
+          <div className="gradient-03">
+
+          </div>
+          <Explore />
+        </div>
+        <div className="relative">
+          <GetStarted />
+          <div className="gradient-04"> 
+          </div>
+          <WhatsNew />
+        </div>
+        <World />
+        <div className="relative">
+          <Insights />
+          <div className="gradient-04">
+
+          </div>
+          <Feedback />
+        </div>
+        <Footer />
       </div>
-      <div className="relative">
-        <GetStarted />
-        <div className="gradient-04" />
-        <WhatsNew />
-      </div>
-      <World />
-      <div className="relative">
-        <Insights />
-        <div className="gradient-04" />
-        <Feedback />
-      </div>
-      <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

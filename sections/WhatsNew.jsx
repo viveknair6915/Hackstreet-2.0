@@ -9,7 +9,7 @@ import { newFeatures, newFeatures2 } from '../constants';
 
 function WhatsNew() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="prize">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
