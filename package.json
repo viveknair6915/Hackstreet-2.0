@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dom": "^0.0.3",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.21.2",
     "react-router-dom": "^6.21.1",
     "react-router-hash-link": "^2.4.3"
   },
