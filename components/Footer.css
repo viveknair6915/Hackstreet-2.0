@@ -11,3 +11,22 @@
 #gmail:hover{
     font-size:3.5vmin;
 }
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .flex-wrap {
+      flex-direction: column; 
+    }
+  
+    .social-btn {
+      margin-top: 10px; 
+      
+    }
+    .fix-class{
+        flex-direction: row;
+    }
+  }
+  
