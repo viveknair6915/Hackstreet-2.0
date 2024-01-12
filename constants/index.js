@@ -22,7 +22,7 @@ export const exploreWorlds = [
   {
     id: 'Murder-5',
     imgUrl: '/murder5.png',
-    title: 'The unknown',
+    title: 'The Unknown',
   },
 ];
 
