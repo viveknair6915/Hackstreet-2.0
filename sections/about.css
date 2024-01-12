@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+    .gradient-02 {
+      height: 50vh;
+    }
+  
+    .text-secondary-white {
+      font-size: 17px;
+    }
+  
+  }
+  
