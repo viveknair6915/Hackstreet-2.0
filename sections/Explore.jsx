@@ -7,7 +7,7 @@ import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 import { exploreWorlds } from '../constants';
-
+import './explore.css';
 function Explore() {
   const [active, setActive] = useState('world-2');
 
@@ -23,10 +23,10 @@ function Explore() {
         <TypingText title="| The Case" textStyles="text-center" />
         <TitleText
           title={(
-            <>
+            <div className="heading-explore">
               Choose your own fate ‼<br className="md:block hidden" />
-              Chase down the Murderer🗡
-            </>
+              <div>Chase down the Murderer🗡</div>
+            </div>
           )}
           textStyles="text-center"
         />
