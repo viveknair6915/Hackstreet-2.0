@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 function Feedback() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="sponser">
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[1] lg:max-w-[1290px] flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
