@@ -1,10 +1,92 @@
 .NavBar-desc{
     display: flex;
-    width:500px;
+    width:55%;
     justify-content: space-evenly;
     color:aliceblue;
-    margin:1vmin;
+    margin-left:30%;
+    align-items: center; 
+
 }
 /* h2{
     width: 60%;
 } */
+.heading{
+    margin-left:2vmin;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:15vmin;
+    font-size:3.5vmin;
+    background-color:  rgb(49, 55, 78);
+    width:100vw;
+    color:aliceblue;
+    position:fixed;
+    overflow: hidden;
+    margin-top: 0; 
+    font-weight: bold;
+    margin-bottom:8vmin;
+    z-index:999;
+}
+.devfolio{
+    width:23vmin;
+    height:10vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:3.3vmin;
+    background-color: rgb(57, 112, 250);
+    border-radius: 6vmin;
+    border:0.1em solid rgb(7, 10, 48);
+}
+@media (max-width: 850px) {
+    .nav {
+        font-size:2.2vmin;
+    }
+    .NavBar-desc{
+        width:75%;
+        margin-left:4%;
+    }
+    .devfolio{
+        height:8vmin;
+        font-size:2.2vmin;
+        width: 15vmin;
+    }
+    .heading{
+        margin-left:1vmin;
+        font-size: 2.3vmin;
+    }
+  }
+  @media (max-width: 500px) {
+    .nav {
+        font-size:2.3vmin;
+    }
+    .NavBar-desc{
+        width:75%;
+        margin-left:2%;
+    }
+
+}
+@media (max-width: 1100px) {
+    .nav {
+        font-size:2.2vmin;
+    }
+    .NavBar-desc{
+        width:75%;
+        margin-left:4%;
+    }
+    .devfolio{
+        height:8vmin;
+        font-size:2.2vmin;
+        width: 15vmin;
+    }
+    .heading{
+        margin-left:1vmin;
+        font-size: 2.3vmin;
+    }
+  }
+

@@ -53,7 +53,7 @@ export const newFeatures2 = [
     imgUrl: '/headset.svg',
     title: 'ALL GIRLS TEAM',
     subtitle:
-        'Will be awarded to the project of hackathon which was made by an all girls team.',
+        'To the project of hackathon which was made by an all girls team.',
   },
 ];
 
