@@ -4,8 +4,9 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+// eslint-disable-next-line no-unused-vars
 import { StartSteps, TitleText, TypingText } from '../components';
-//import { startingFeatures } from '../constants';
+// import { startingFeatures } from '../constants';
 
 function GetStarted() {
   return (
@@ -30,9 +31,7 @@ function GetStarted() {
         <motion.div
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="flex-[0.75] flex justify-center flex-col"
-        >
-      
-        </motion.div>
+        />
       </motion.div>
     </section>
   );

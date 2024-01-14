@@ -26,8 +26,6 @@ export const exploreWorlds = [
   },
 ];
 
-
-
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',

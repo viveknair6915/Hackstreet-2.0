@@ -8,6 +8,7 @@ import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 import { exploreWorlds } from '../constants';
 import './explore.css';
+
 function Explore() {
   const [active, setActive] = useState('world-2');
 

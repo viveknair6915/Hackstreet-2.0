@@ -37,7 +37,7 @@ function WhatsNew() {
             src="/revimage20.png"
             alt="whats-new"
             className="lg:w-[96%] lg:h-[96%] sm:w-[600px] sm:h-[900px] object-contain"
-          /> 
+          />
         </motion.div> */}
       </motion.div>
       <motion.div
